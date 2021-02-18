@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.text{
+    margin: 10px 0;
+    text-align: center;
+}
+.text-1{
+    font-size: 50px;
+    padding: 10px 0;
+    color: hsl(0, 0%, 59%);
+}
+
+.text-2{
+    color: hsl(0, 1%, 36%);
+    font-size: 25px;
+    font-weight: 400;
+}
+.form{
+    position: relative;
+    display:flex;
+    margin: 35px 0;
+}
+.form input{
+    width: 550px;
+    border: 2px solid #f0f0f0;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 12px;
+    outline: none;
+}
+.btn{
+    padding: 15px 15px;
+    margin-left: 15px;
+    width:120px;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid #f0f0f0;
+    background-color: hsl(223, 87%, 63%);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.success{
+    position:absolute;
+    left: 520px;
+    top: 18px;
+    color: #2ecc71;
+    visibility: hidden;
+}
+
+.btn:hover{
+    transform: scale(0.97);
+}
+.error{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: 15px;
+    color: hsl(354, 100%, 66%);
+    font-weight: 400;
+    visibility: hidden;
+}
+img{
+    width: 750px;
+}
+.icon i{
+    margin: 15px 20px;
+    color: hsl(223, 87%, 63%);
+}
+.icon{
+    margin-left: 30px;
+}
